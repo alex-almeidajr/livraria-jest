@@ -41,10 +41,10 @@ Este projeto já conta com o código necessário para subir a API em um servidor
 │   │   └── autor.js
 │   │   └── editora.js
 │   └── routes
-│       ├── autoresRoutes.js
-│       ├── editorasRoutes.js
-│       ├── index.js
-│       └── livrosRoutes.js
+│   |   ├── autoresRoutes.js
+│   |   ├── editorasRoutes.js
+│   |   ├── index.js
+│   |   └── livrosRoutes.js
 │   ├── test
 │   │   ├── models
 |   |       └── editora.test.js
