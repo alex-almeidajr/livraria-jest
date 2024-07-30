@@ -4,16 +4,18 @@
 
 ## Resumo do projeto
 
-Projeto de API REST para prática de JavaScript.
+Projeto de API REST para prática de JavaScript e testes unitários utilizando JEST.
 Livraria com sistema de cadastro e manejo de livros, autores e editoras.
 
 
 ## Stack utilizada
 
 * `Node.js` v16.14.2
-* `express` v4.18.1,
+* `express` v4.18.1
 * `knex` v2.1.0
 * `sqlite3` v5.0.8
+* `jest` v28.1.2
+* `supertest` v6.2.4
 
 
 ## Instalação
@@ -43,6 +45,11 @@ Este projeto já conta com o código necessário para subir a API em um servidor
 │       ├── editorasRoutes.js
 │       ├── index.js
 │       └── livrosRoutes.js
+│   ├── test
+│   │   ├── models
+|   |       └── editora.test.js
+│   │   ├── routes
+|   |       └── editorasRoutes.test.js
 ```
 
 
@@ -211,3 +218,4 @@ A API expõe os seguintes *endpoints* a partir da *base URL* `localhost:3000`:
 * Autenticação
 * Tratamento de erros
 * Validações
+* Testes unitários e de integração utilizando JEST e Supertest
